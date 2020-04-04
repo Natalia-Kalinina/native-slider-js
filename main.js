@@ -10,7 +10,7 @@ function createCarousel(slidesCount = 5) {
 
 
 
-for (let i = 1; i <= slidesCount; i++) {
+for (let i = 1; i < slidesCount; i++) {
   slideItems += '<li class="slides__item"><a href="#"></a></li>';
   indicatorItemOut += `<span class="indicators__item" data-slide-to="${i}"></span>`;
 }
