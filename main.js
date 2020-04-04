@@ -16,7 +16,7 @@ for (let i = 1; i < slidesCount; i++) {
 }
 
 for (let i = 1; i <= slidesCount; i++) {
-  styleItems += `.slides__item:nth-child(${i}) { background-image: url('img/_${Math.round(1 + Math.random() * 5)}.jpg'); } `;
+  styleItems += `.slides__item:nth-child(${i}) { background-image: url('img/${Math.round(1 + Math.random() * 5)}.jpg'); } `;
 }
 
 outSlides += `<ul class="slides">${slideItems}</ul><div class="indicators">${indicatorItemOut}</div>`;
