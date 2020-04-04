@@ -102,3 +102,5 @@ function toPreviousSlide() {
 }
 
 previousButton.addEventListener('click', toPreviousSlide);
+
+
